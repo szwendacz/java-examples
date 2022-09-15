@@ -2,9 +2,14 @@
 
 public class IfElse{
     public static void main(String[] args){
+
+        //IF
         if (2 > 1) {
         System.out.println("2 is greater than 1");
         }
+
+        //IF-ELSE
+
         int goal = 20;
         if (goal < 18) {
         System.out.println("Prawda.");
@@ -12,6 +17,7 @@ public class IfElse{
         System.out.println("Falsz.");
         }
 
+        //ELSE_IF
         int score = 87;
         char grade;
         if (score > 85 && score <=100) {
